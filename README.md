@@ -17,13 +17,12 @@ portia.Install gadgets-games-scramble
 ## What is here
 
     src/Scramble.Mod                 the game
-    share/Clown.Pict, Grapes.Pict    pictures to play with (Default.Pict comes with gadgets)
     tools/Scramble.Tool
     test/ScrambleTest.Mod
 
 Scramble is by Emil Zeller, from ETH Native Oberon 2.3.6. The source was converted from an Oberon text to plain text; the first commit has it
 unchanged. It compiles unchanged with all five of polpo's compilers (x86, ARM, ARMv7, RISC-V,
-MIPS).
+MIPS). The pictures Clown.Pict and Grapes.Pict come from gadgets-pictures, Default.Pict from gadgets.
 
 ## Tests
 
